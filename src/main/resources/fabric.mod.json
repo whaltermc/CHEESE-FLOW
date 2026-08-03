@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "glesbackend",
+  "version": "${version}",
+  "name": "GLES Backend",
+  "description": "Replaces Blaze3D's desktop OpenGL backend with OpenGL ES 3.2 for native Android rendering via Amethyst",
+  "authors": ["Amethyst"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.amethyst.glesbackend.GLESBackendMod"
+    ]
+  },
+  "mixins": [
+    "glesbackend.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.4"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "dev.amethyst.glesbackend.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ProgramMixin",
+    "RenderSystemMixin",
+    "RenderTargetMixin",
+    "GlStateManagerMixin",
+    "GameRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
